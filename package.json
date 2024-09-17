@@ -1,0 +1,18 @@
+{
+  "name": "furstore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:debug-logs": "cross-env DEBUG=* DEBUG_FILE=logs.txt npx playwright test"
+  },
+  "keywords": [],
+  "author": "Tanya",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.5"
+  }
+}
